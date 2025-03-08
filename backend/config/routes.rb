@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Transactions API routes
+  resources :transactions, only: [ :index, :create, :destroy ]
 end
