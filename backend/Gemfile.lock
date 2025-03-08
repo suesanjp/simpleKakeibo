@@ -319,6 +319,7 @@ DEPENDENCIES
   brakeman
   debug
   kamal
+  psych (~> 5.1)
   puma (>= 5.0)
   rack-cors (~> 2.0)
   rails (~> 8.0.1)
