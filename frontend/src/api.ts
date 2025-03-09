@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Transaction } from "./types";
 
-const API_URL = "http://localhost:3001/transactions";
+const API_URL = "https://simplekakeibo-production.up.railway.app/transactions";
 
 export const fetchTransactions = async (): Promise<Transaction[]> => {
   const res = await axios.get(API_URL);
